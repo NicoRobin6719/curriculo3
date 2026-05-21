@@ -3,6 +3,9 @@ export type Curriculo = {
   nome: string
   cargo: string
   resumo: string
+  email?: string
+  telefone?: string
+  habilidades?: string[]
   experiencias: { descricao: string }[]
   formacoes: { descricao: string }[]
 }
